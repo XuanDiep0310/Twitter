@@ -110,8 +110,11 @@ class UsersService {
         {
           $set: {
             email_verify_token: '',
-            verify: UserVerifyStatus.Verified,
-            updated_at: new Date()
+            verify: UserVerifyStatus.Verified
+            // updated_at: new Date() // Thời điểm tạo giá trị
+          },
+          $currentDate: {
+            updated_at: true // Thời điểm mongoDB cập nhật giá trị
           }
         }
       )
