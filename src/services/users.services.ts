@@ -171,7 +171,7 @@ class UsersService {
         }
       }
     ])
-    // Gửi email kèm đường link đến người dùng: https://twitter.com/forgot-password?token=token
+    // Gửi email kèm đường link đến người dùng: (ví dụ) https://twitter.com/forgot-password?token=token
     console.log('forgot_password_token: ', forgot_password_token)
     return {
       message: USERS_MESSAGES.CHECK_EMAIL_TO_RESET_PASSWORD
