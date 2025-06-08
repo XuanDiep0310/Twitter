@@ -48,6 +48,8 @@ export const USERS_MESSAGES = {
   UPDATE_ME_SUCCESS: 'Update me successful',
   USERNAME_EXISTED: 'Username existed',
   FOLLOW_SUCCESS: 'Follow successful',
-  INVALID_FOLLOWED_USER_ID: 'Invalid followed user id',
-  FOLLOWED: 'Followed'
+  INVALID_USER_ID: 'Invalid followed user id',
+  FOLLOWED: 'Followed',
+  ALREADY_UNFOLLOWED: 'Already unfollowed',
+  UNFOLLOW_SUCCESS: 'Unfollow successful'
 } as const

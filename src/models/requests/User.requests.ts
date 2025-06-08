@@ -55,3 +55,7 @@ export interface UpdateMeReqBody {
 export interface FollowReqBody {
   followed_user_id: string
 }
+
+export interface UnfollowReqParams {
+  user_id: string
+}
